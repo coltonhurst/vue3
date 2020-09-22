@@ -1,0 +1,17 @@
+<!-- https://v3.vuejs.org/guide/introduction.html#conditionals-and-loops -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>body { font-family: Verdana,Geneva,sans-serif; }</style>
+        <script src="https://unpkg.com/vue@next"></script>
+    </head>
+    <body>
+        <div id="conditional-rendering">
+            <button v-on:click="swap">Change Visibility</button>
+            <br>
+            <span v-if="seen">Now you see me</span>
+        </div>          
+        <script src="./main.js"></script>
+    </body>
+</html>
